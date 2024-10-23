@@ -1,0 +1,31 @@
+body{
+  background-color: lightblue;
+}
+#search-page-body {
+  background-color: lightblue;
+}
+
+
+#search-page-hr {
+  border-top: 15px dotted darkblue;
+  margin-top: 30px;
+  
+}
+
+#btn-genre {
+  background-color: darkblue;
+}
+i{
+  width: 30px;
+  height: 30px;
+}
+
+.red-bold-text{
+  color: red;
+  font-weight: bold;
+}
+
+.green-bold-text{
+  color: green;
+  font-weight: bold;
+}

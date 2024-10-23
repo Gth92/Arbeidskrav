@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Show all</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="https://kit.fontawesome.com/3ab1ab6222.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/Show-all.css" />
+    <script defer type="module" src="../scripts/show-all.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+          <a class="navbar-brand" href="#">mcFlow Music</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                      <li class="nav-item">
+                          <a class="nav-link active" href="Show-all.html">Vis alle</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="search-page.html">Søk</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="save-new.html">Lagre ny</a>
+                      </li>
+                      <li class="nav-item ">
+                          <a class="nav-link" href="update-delete.html">Oppdater/slett</a>
+                      </li>
+                  </ul>
+              </div>
+        </nav>
+    </header>
+  <section class="show-all-header">
+    <div>
+      <h1>Vis alle artister <i class="fa-solid fa-microphone-lines"></i></h1>
+      <button type="button" id="show-all-btn">Vis alle</button>
+    </div>
+  </section>
+    <section class="show-all-grid"></section>
+  </body>
+</html>
